@@ -11,7 +11,7 @@ public class EvenOrOdd {
         if(result == number){
             System.out.println("even");
         }else{System.out.println("odd");
-    }
+    } a.close()
 
 
     }

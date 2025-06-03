@@ -5,7 +5,7 @@ public class DemoA {
 {
     for(int col = 0; col<5; col++)
     {
-        if(col==0 && row != 0 || row ==3 || col == 4 && row!=0 || row == 0 && col!=0 && col!=4)
+        if(row>0&&col==0||row>0&&col==4||row==3||row==0&&col>0&&col!=4)
         {
             System.out.print("*");
 
